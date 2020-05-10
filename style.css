@@ -1,0 +1,27 @@
+body {
+    background-color: #191516;
+}
+
+#navigation a { 
+    color: #AB2346;
+}
+
+.main-header {
+    color: #00B295;
+}
+
+.section-header {
+    color: #DDD92A;
+}
+
+.article-header {
+    color: #AB2346;
+}
+
+.answear {
+    color: #C9DAEA;
+}
+
+.footer {
+    color: #00B295;
+}
