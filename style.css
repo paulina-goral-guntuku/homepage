@@ -2,9 +2,22 @@ body {
   background-image: url(img/moroccan-flower-dark/moroccan-flower-dark.png);
 }
 
+.navigation {
+  background: #eae8ff;
+  width: 1000px;
+  height: 8vh;
+  margin: 2px auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
 main {
   background: #eae8ff;
   width: 1000px;
+  height: 85vh;
+  margin: 2px auto;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .main-header {
@@ -24,4 +37,13 @@ main {
 
 .about-me__question {
   color: #208aae;
+}
+
+.footer {
+  background: #eae8ff;
+  width: 1000px;
+  height: 7vh;
+  margin: 2px auto;
+  padding: 5px;
+  box-sizing: border-box;
 }
