@@ -1,27 +1,27 @@
 body {
-    background-color: #191516;
+  background-color: #191516;
 }
 
-#navigation a { 
-    color: #AB2346;
+#navigation a {
+  color: #ab2346;
 }
 
 .main-header {
-    color: #00B295;
+  color: #00b295;
 }
 
 .section-header {
-    color: #DDD92A;
+  color: #ddd92a;
 }
 
 .article-header {
-    color: #AB2346;
+  color: #ab2346;
 }
 
 .answear {
-    color: #C9DAEA;
+  color: #c9daea;
 }
 
 .footer {
-    color: #00B295;
+  color: #00b295;
 }
