@@ -1,27 +1,27 @@
 body {
-  background-color: #191516;
+  background-image: url(img/moroccan-flower-dark/moroccan-flower-dark.png);
 }
 
-#navigation a {
-  color: #ab2346;
+main {
+  background: #eae8ff;
+  width: 1000px;
 }
 
 .main-header {
-  color: #00b295;
+  color: #413F54;
 }
 
-.section-header {
-  color: #ddd92a;
+.about-me {
 }
 
-.article-header {
-  color: #ab2346;
+.about-me__answear {
+  color: #2a2b2a;
 }
 
-.answear {
-  color: #c9daea;
+.about-me__header {
+  color: #0B4F6C;
 }
 
-.footer {
-  color: #00b295;
+.about-me__question {
+  color: #208aae;
 }
