@@ -5,7 +5,7 @@ body {
 .navigation {
   background: #eae8ff;
   width: 1000px;
-  height: 8vh;
+  height: 8%;
   margin: 2px auto;
   padding: 5px;
   box-sizing: border-box;
@@ -14,35 +14,58 @@ body {
 main {
   background: #eae8ff;
   width: 1000px;
-  height: 85vh;
+  height: 85%;
   margin: 2px auto;
   padding: 5px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .main-header {
-  color: #413F54;
+  color: #413f54;
+  display: block;
+  box-sizing: border-box;
+}
+
+.picture {
+  width: 150px;
+  height: 150px;
+  float: right;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .about-me {
+  display: block;
 }
 
 .about-me__answear {
   color: #2a2b2a;
+  width: 80%;
+  display: block;
+  box-sizing: border-box;
 }
 
 .about-me__header {
-  color: #0B4F6C;
+  color: #0b4f6c;
+  width: 80%;
+  display: block;
+  box-sizing: border-box;
 }
 
 .about-me__question {
   color: #208aae;
+  width: 80%;
+  display: block;
+  box-sizing: border-box;
 }
 
 .footer {
   background: #eae8ff;
   width: 1000px;
-  height: 7vh;
+  height: 7%;
   margin: 2px auto;
   padding: 5px;
   box-sizing: border-box;
