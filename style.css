@@ -11,6 +11,13 @@ body {
   box-sizing: border-box;
 }
 
+.navigation__link {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
 main {
   background: #eae8ff;
   width: 1000px;
