@@ -32,6 +32,8 @@ main {
   color: #413f54;
   display: block;
   box-sizing: border-box;
+  margin: 10px 10px 30px 10px;
+  padding: 10px 20px;
 }
 
 .picture {
@@ -53,6 +55,8 @@ main {
   width: 80%;
   display: block;
   box-sizing: border-box;
+  margin: 5px 10px;
+  padding: 10px;
 }
 
 .about-me__header {
@@ -60,6 +64,8 @@ main {
   width: 80%;
   display: block;
   box-sizing: border-box;
+  margin: 5px 10px;
+  padding: 20px;
 }
 
 .about-me__question {
@@ -67,6 +73,8 @@ main {
   width: 80%;
   display: block;
   box-sizing: border-box;
+  margin: 5px 10px;
+  padding: 10px;
 }
 
 .footer {
