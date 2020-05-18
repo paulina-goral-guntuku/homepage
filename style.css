@@ -1,5 +1,13 @@
 body {
-  background-image: url(img/moroccan-flower-dark/moroccan-flower-dark.png);
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(196, 26, 130, 0.938813025210084) 0%,
+    rgba(131, 64, 183, 0.6138830532212884) 54%,
+    rgba(191, 210, 247, 0.19371498599439774) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navigation {
