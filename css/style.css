@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+  box-sizing: inherit;
+  }
+
 body {
   min-height: 100vh;
   background: linear-gradient(
@@ -16,14 +24,17 @@ body {
   height: 8%;
   margin: 2px auto;
   padding: 5px;
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .navigation__link {
-  display: inline-block;
-  margin: 5px 10px;
-  padding: 5px;
-  box-sizing: border-box;
+  width: 20%;
+  display: block;
+  text-align: center;
+
+  
 }
 
 .main {
@@ -32,14 +43,12 @@ body {
   height: 85%;
   margin: 2px auto;
   padding: 5px;
-  box-sizing: border-box;
   position: relative;
 }
 
 .main-header {
   color: #413f54;
   display: block;
-  box-sizing: border-box;
   margin: 10px 10px 30px 10px;
   padding: 10px 20px;
 }
@@ -62,7 +71,6 @@ body {
   color: #2a2b2a;
   width: 80%;
   display: block;
-  box-sizing: border-box;
   margin: 5px 10px;
   padding: 10px;
 }
@@ -71,7 +79,6 @@ body {
   color: #0b4f6c;
   width: 80%;
   display: block;
-  box-sizing: border-box;
   margin: 5px 10px;
   padding: 20px;
 }
@@ -80,7 +87,6 @@ body {
   color: #208aae;
   width: 80%;
   display: block;
-  box-sizing: border-box;
   margin: 5px 10px;
   padding: 10px;
 }
@@ -91,5 +97,4 @@ body {
   height: 7%;
   margin: 2px auto;
   padding: 5px;
-  box-sizing: border-box;
 }
