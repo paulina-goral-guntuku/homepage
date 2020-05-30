@@ -16,23 +16,36 @@ body {
   );
   background-size: cover;
   background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 40px 1fr 20px;
+  column-gap: 16px;
+  row-gap: 16px;
+
+}
+
+.header {
+grid-column: 1 / 3;
+height: 40px;
+width: 100%;
 }
 
 .navigation {
   background: #eae8ff;
-  width: 100%;
-  height: 8%;
-  margin: 2px auto;
   padding: 5px;
   display: flex;
   justify-content: center;
+  align-content: center;
+  
   
 }
 
 .navigation__link {
   width: 20%;
+  height: 40px;
   display: block;
   text-align: center;
+  line-height: 40px;
 
   
 }
@@ -40,8 +53,8 @@ body {
 .main {
   background: #eae8ff;
   max-width: 1000px;
-  height: 85%;
-  margin: 2px auto;
+  height: 100%;
+  margin-left: 16px;
   padding: 5px;
   position: relative;
 }
@@ -93,8 +106,9 @@ body {
 
 .footer {
   background: #eae8ff;
-  width: 1000px;
-  height: 7%;
+  width: 100%;
+  height: 20px;
   margin: 2px auto;
   padding: 5px;
+  grid-column: 1 / 3;
 }
