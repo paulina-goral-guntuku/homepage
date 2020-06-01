@@ -1,16 +1,7 @@
-const firstName = "Paulina";
-const age = "28";
+const hamburger = document.querySelector('.hamburger--js');
 
-console.log(firstName);
-console.log(age);
-
-console.log(`Cześć. Mam na imię ${firstName} i mam ${age} lat.`);
-
-const emptyParagraph = document.querySelector('.homework--js');
-emptyParagraph.innerHTML = 'Zadanie domowe z JS wykonane!';
-
-const greet = (age1, name1) => {
-    console.log(`Witaj Drogi Odwiedzający, mam na imię ${name1} i mam ${age1} lat.`);
+hamburger.addEventListener('click', () => {
+const nav = document.querySelector('.navigation--js');
+nav.classList.toggle('navigation__open')
 }
-
-greet(28, 'Paulina')
+);
