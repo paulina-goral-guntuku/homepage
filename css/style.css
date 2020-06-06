@@ -52,11 +52,11 @@ body {
 
 .hamburger {
   background: #c51f80;
- border: none;
- color: white;
- position: fixed;
- top: 2px;
- right: 2px;
+  border: none;
+  color: white;
+  position: fixed;
+  top: 2px;
+  right: 2px;
 }
 
 .main {
@@ -114,6 +114,16 @@ body {
   padding: 10px;
 }
 
+.about-me__question::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-color:#c51f80;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
 .footer {
   background: #eae8ff;
   width: 100%;
@@ -137,7 +147,6 @@ body {
   }
 
   .header {
-    
     position: absolute;
     height: 40px;
     grid-area: 1 / 1 / 2 / 3;
